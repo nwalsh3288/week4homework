@@ -1,0 +1,65 @@
+// What is my storage approach? (static and dynamic)
+    // local storage - stored as objected converted into text string
+    // Static data - questions (not going to update based off of user input) 
+    // Dynaic data - User Responses
+
+
+// To start:
+    // Process on how to update the DOM - append the element to html page
+    // Create text for question and answers
+    // Start button at home page
+    // Create buttons for each question/answer - append button element
+    // Text to show if user is right or wrong
+    // text box to input initials and time score
+
+
+
+
+
+
+// GIVEN I am taking a code quiz
+
+// WHEN I click the start button
+    // addEventLister --> click
+    // Button --> when clicked start timer (might use setInterval) & show first question (html)?
+
+
+var startButton = document.createElement("button")
+document.getElementById("container").appendChild(startButton);
+startButton.textContent = "Start Button"
+container.appendChild(startButton);
+
+
+
+//...
+
+// THEN a timer starts and I am presented with a question
+    // Question 1: Is the sky blue? (static data we are going to store)
+
+// WHEN I answer a question
+    // Create yes button or no button
+    // Store user answer - dynamic (local storage)
+
+// THEN I am presented with another question
+    // Question 2: Is LaBron James over 8' (static data we are going to store)
+
+// WHEN I answer a question incorrectly
+    // carry over yes or no buttons from before
+    // Store user answer - dynamic (local storage)
+
+// THEN time is subtracted from the clock
+    // Another function to subtract the clock (need to look up)
+
+
+// WHEN all questions are answered or the timer reaches 0
+    // if user clicks final option - or - timer reaches 0 (variable - when reaches 0 setInterval function goes off)
+    // continuous if statement to check if clock is 0
+
+// THEN the game is over
+    // manipulate HTML to show game is over
+
+// WHEN the game is over
+
+// THEN I can save my initials and score
+    // Dynamic local storage
+
